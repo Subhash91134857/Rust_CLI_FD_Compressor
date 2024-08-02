@@ -1,0 +1,10 @@
+[package]
+name = "file_compressor"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+flate2 = "1.0"
+tar = "0.4"
+clap = { version = "4.1.9", features = ["derive"] }
+thiserror = "1.0"
